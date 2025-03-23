@@ -6,7 +6,9 @@
     <title>404 Not Found</title>
     <script>
       // Redirect to the homepage of the app
-      window.location.replace(window.location.origin + "/");
+      window.location.replace(
+        window.location.origin + window.location.pathname
+      );
     </script>
   </head>
   <body>
