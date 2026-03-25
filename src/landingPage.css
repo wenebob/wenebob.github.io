@@ -1,0 +1,41 @@
+.landing-page {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: white;
+  position: relative;
+}
+
+.profile-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+.menu-buttons .btn {
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 8px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-buttons .btn:hover {
+  background-color: white;
+  color: #302b63;
+}
+
+.scroll-down {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
