@@ -1,5 +1,5 @@
 import React from "react";
-import "./landingPage.css";
+import "../landingPage.css";
 import { Container, Button } from "react-bootstrap";
 import { FaArrowDown } from "react-icons/fa";
 import { Link } from "react-router-dom";

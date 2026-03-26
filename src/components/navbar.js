@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import "./navbar.css"; // We'll style it here
+import "../navbar.css"; // We'll style it here
 import { Link, useLocation } from "react-router-dom";
 
 const CustomNavbar = () => {
