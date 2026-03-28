@@ -1,20 +1,20 @@
 import React from "react";
-import "../landingPage.css";
+import "../css/landingPage.css";
 import { Container, Button } from "react-bootstrap";
 import { FaArrowDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
 const LandingPage = () => {
   return (
     <>
-      <Helmet>
+      {/* <Helmet> */}
         <title>Home - Faith Nchifor</title>
         <meta
           name="description"
           content=" Faith Nchifor Portfolio Home page "
         />
-      </Helmet>
+      {/* </Helmet> */}
       <div className="landing-page">
         <Container className="text-center d-flex flex-column justify-content-center align-items-center h-100">
           <img
@@ -36,7 +36,7 @@ const LandingPage = () => {
           </h3>
           <div className="social-links mt-3">
             <a
-              href="https://github.com/faith-nchifor"
+              href="https://github.com/wenebob"
               target="_blank"
               rel="noopener noreferrer"
             >

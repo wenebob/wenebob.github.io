@@ -21,7 +21,7 @@ import {
   SiTensorflow,
   SiTypescript,
 } from "react-icons/si";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
 const skills = [
   { name: "Programming", icon: <FaCode /> },
@@ -43,10 +43,10 @@ const skills = [
 const About = () => {
   return (
     <>
-      <Helmet>
+      {/* <Helmet> */}
         <title>About - Faith Nchifor</title>
         <meta name="description" content="About Faith Nchifor Developer" />
-      </Helmet>
+      {/* </Helmet> */}
 
       <div className="about-section mt-4" id="about">
         <div className="container about-content">

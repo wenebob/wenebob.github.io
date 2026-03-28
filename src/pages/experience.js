@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../css/experiencePage.css";
 import VolunteeringExperience from "../components/volunteeringExperience";
 import ExperienceFilter from "../components/experienceFilter";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
 const experiences = [
   {
@@ -78,13 +78,13 @@ const ExperiencePage = () => {
       : experiences.filter((exp) => exp.type.includes(selectedType));
   return (
     <>
-      <Helmet>
+      {/* <Helmet> */}
         <title>Experience - Faith Nchifor</title>
         <meta
           name="description"
           content="The work experiences of  Faith Nchifor Developer"
         />
-      </Helmet>
+      {/* </Helmet> */}
       <div className="experience-container py-5" id="experience">
         <h2 className="text-center mt-5">Experience</h2>
         <div data-aos="flip-left">

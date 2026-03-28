@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/portfolio.css";
 import { Badge, Button, Card, Col, Row } from "react-bootstrap";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
 const projects = [
   {
@@ -63,13 +63,13 @@ const projects = [
 const PortfolioPage = () => {
   return (
     <>
-      <Helmet>
+      {/* <Helmet> */}
         <title>Portfolio - Faith Nchifor</title>
         <meta
           name="description"
           content="Portfolior of  Faith Nchifor Developer"
         />
-      </Helmet>
+      {/* </Helmet> */}
       <div className="container-fluid py-5 mt-5" id="portfolio">
         <h2 className="text-center mt-5">Portfolio</h2>
         <div className="row" data-aos="zoom-in" data-aos-duration="3000">
