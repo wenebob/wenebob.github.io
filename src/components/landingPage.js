@@ -32,7 +32,7 @@ const LandingPage = () => {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            Full Stack Developer & Junior Machine Learning Engineer
+            Full Stack Developer &  Machine Learning Engineer
           </h3>
           <div className="social-links mt-3">
             <a
