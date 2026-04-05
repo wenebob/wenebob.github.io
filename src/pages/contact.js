@@ -33,7 +33,7 @@ const Contact = () => {
               data-aos-delay="200"
             >
               <a
-                href="https://github.com/faith-nchifor"
+                href="https://github.com/wenebob"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white mx-3"
