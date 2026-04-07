@@ -18,7 +18,7 @@ const projects = [
     image: "base_icon.png",
   },
   {
-    title: "Ghɔmálá Data Collection Platform",
+    title: "Engage Africa NLP Data Collection Platform",
     description:
       "Crowdsourcing app to collect linguistic data from underrepresented languages.",
     contributions: [
